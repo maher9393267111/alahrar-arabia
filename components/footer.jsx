@@ -31,7 +31,12 @@ export default function Footer() {
     <button className='bg-[#5AB889] flex gap-1 items-center  p-3 font-semibold hover:bg-[#00B889]   my-4 rounded-xl text-xl md:text-2xl'
     >
 
-        <p>الاتصال الآن
+        <p>
+            <a href='https://wa.me/905319913648'>
+
+       
+            تواصل واتس  اب
+            </a>
 
         </p>
 
