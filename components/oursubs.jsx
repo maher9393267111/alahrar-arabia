@@ -27,10 +27,10 @@ export default function oursubs() {
                           return (
 
                             // md:flex md:justify-center
-                            <li className=' my-6 '>
+                            <li className=' my-6 ' key={index}>
 
 
-<div key={index} className='flex  flex-wrap items-center gap-2  sm:gap-6 '>
+<div  className='flex  flex-wrap items-center gap-2  sm:gap-6 '>
 <p className='sm:font-semibold text-md sm:text-2xl'>{item?.city}:</p>
 <p className='text-xl sm:text-2xl'>{item?.adress}</p>
 
