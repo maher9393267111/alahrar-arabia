@@ -8,7 +8,7 @@ export default function Main() {
 
 
 <div className=" text-center text-[40px] sm:text-[55px]  transition-all  duration-300  cursor-pointer mt-[75px] hover:font-bold">
-    <h1>
+    <h1 className='bg-[#5AB889] p-3 mb-4 font-semibold hover:bg-[#00B889] w-[100%] md:w-[50%] m-auto rounded-md'>
     شركة الاحرار العربية للصرافة
     </h1>
 </div>

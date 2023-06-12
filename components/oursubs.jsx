@@ -6,7 +6,7 @@ export default function oursubs() {
     <div className=" my-12">
 
 <div className='text-center text-[40px] sm:text-[52px]  transition-all mb-[55px]  duration-300  cursor-pointer  hover:font-bold'>
-    <h1>
+    <h1 className='bg-[#5AB889] p-3 mb-4 font-semibold hover:bg-[#00B889] w-[65%] md:w-[25%] m-auto rounded-md' >
         فروعنا
     </h1>
     <hr className ='text-center w-1/2 m-auto mt-2' />
