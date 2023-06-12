@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar'
 import Main from '../components/main'
 import Oursubs from '../components/oursubs'
+import Services from '../components/services'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -22,6 +24,10 @@ export default function Home() {
 <Main/>
 
 <Oursubs/>
+
+<Services/>
+
+<Footer/>
 
 </div>
 

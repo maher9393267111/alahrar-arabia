@@ -5,10 +5,11 @@ export default function oursubs() {
   return (
     <div className=" my-12">
 
-<div className='text-center text-[40px]  transition-all mb-[55px]  duration-300  cursor-pointer  hover:font-bold'>
+<div className='text-center text-[40px] sm:text-[52px]  transition-all mb-[55px]  duration-300  cursor-pointer  hover:font-bold'>
     <h1>
         فروعنا
     </h1>
+    <hr className ='text-center w-1/2 m-auto mt-2' />
 </div>
 
 

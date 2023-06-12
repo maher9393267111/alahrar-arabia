@@ -41,4 +41,20 @@ body {
 }
 
 
+.map-canvas{
+  @apply  h-[300px] md:h-[600px] overflow-hidden 
 }
+
+
+.map-canvas iframe {
+
+  @apply w-[80%]   m-auto  h-full 
+}
+
+}
+
+
+
+
+
+
