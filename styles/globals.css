@@ -48,7 +48,7 @@ body {
 
 .map-canvas iframe {
 
-  @apply w-[80%]   m-auto  h-full  rounded-md
+  @apply w-[84%]   m-auto  h-full  rounded-[2%] sm:rounded-[0%]
 }
 
 }
