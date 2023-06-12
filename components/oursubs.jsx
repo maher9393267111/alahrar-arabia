@@ -14,22 +14,22 @@ export default function oursubs() {
 
 {/* -------list---- */}
 
-<div className=' container mx-2 sm:mx-12'>
+<div className=' container sm:text-center mx-2 sm:mx-12'>
 
 
 
 <ol className=' list-decimal container'>
 
-<li>
+<li className=' md:flex md:justify-center '>
 
 
-<div className='flex text-[6px] flex-wrap items-center gap-2  sm:gap-6 '>
-<p className='font-semibold text-md sm:text-xl'>الفرع الرئيسيي</p>
-<p className=''>شركة الأحرار العربية - حي الأعلام -  شارع البدالة - مجمع الملعب</p>
+<div className='flex  flex-wrap items-center gap-2  sm:gap-6 '>
+<p className='font-semibold text-md sm:text-2xl'>الفرع الرئيسيي</p>
+<p className='text-xl sm:text-2xl'>شركة الأحرار العربية - حي الأعلام -  شارع البدالة - مجمع الملعب</p>
 
 <p className=' flex gap-1 sm:gap-2 items-center'>
-    <img className=' w-2 h-2 sm:w-8 sm:h-8 object-cover' src="https://www.svgrepo.com/show/134581/whatsapp.svg" alt="" />
-    <span>0770500077</span>
+    <img className=' w-4 h-4 sm:w-8 sm:h-8 object-cover' src="https://www.svgrepo.com/show/134581/whatsapp.svg" alt="" />
+    <span className='text-xl sm:text-2xl'>0770500077</span>
 </p>
 
 
