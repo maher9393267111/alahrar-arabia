@@ -15,7 +15,7 @@ export default function Main() {
 
 <div className='mt-6 transition-all  text-xl sm:!text-2xl  duration-300  cursor-pointer hover:font-bold'>
     <p>
-    مؤسسة المالية في اسطنبول-شارع يوسف باشا-مقابل شاورما أنس -بناء اينان ايش هانة
+    اسطنبول-شارع يوسف باشا-مقابل شاورما أنس -بناء اينان ايش هانة
     </p>
 </div>
 
