@@ -37,7 +37,9 @@ a {
 @layer components {
 
 body {
-  @apply !font-arabic    bg-[#003900]
+  @apply
+   /* !font-arabic  */
+      bg-[#003900]
   /* bg-green-700 */
 }
 
