@@ -1,4 +1,5 @@
 import React from 'react'
+import { ourSubsData } from '../data/services'
 
 export default function oursubs() {
   return (
@@ -20,11 +21,40 @@ export default function oursubs() {
 
 <ol className=' list-decimal container'>
 
-<li className=' md:flex md:justify-center '>
+{ourSubsData?.map((item,index) => {
+                          
+
+                          return (
+
+                            // md:flex md:justify-center
+                            <li className=' my-6 '>
+
+
+<div key={index} className='flex  flex-wrap items-center gap-2  sm:gap-6 '>
+<p className='sm:font-semibold text-md sm:text-2xl'>{item?.city}:</p>
+<p className='text-xl sm:text-2xl'>{item?.adress}</p>
+
+<p className=' flex gap-1 sm:gap-2 items-center'>
+    <img className=' w-4 h-4 sm:w-8 sm:h-8 object-cover' src="https://www.svgrepo.com/show/134581/whatsapp.svg" alt="" />
+    <span className='text-xl sm:text-2xl'>{item?.phone}</span>
+</p>
+
+
+</div>
+
+</li>
+                        
+                          );
+                        })}
+
+
+
+
+{/* <li className=' md:flex md:justify-center '>
 
 
 <div className='flex  flex-wrap items-center gap-2  sm:gap-6 '>
-<p className='font-semibold text-md sm:text-2xl'>الفرع الرئيسيي</p>
+<p className='sm:font-semibold text-md sm:text-2xl'>الفرع الرئيسيي</p>
 <p className='text-xl sm:text-2xl'>شركة الأحرار العربية - حي الأعلام -  شارع البدالة - مجمع الملعب</p>
 
 <p className=' flex gap-1 sm:gap-2 items-center'>
@@ -35,7 +65,10 @@ export default function oursubs() {
 
 </div>
 
-</li>
+</li> */}
+
+
+
 
 </ol>
 
