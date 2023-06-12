@@ -14,7 +14,7 @@ export default function oursubs() {
 
 {/* -------list---- */}
 
-<div className=' container mx-12'>
+<div className=' container mx-2 sm:mx-12'>
 
 
 
@@ -27,8 +27,8 @@ export default function oursubs() {
 <p className='font-semibold text-md sm:text-xl'>الفرع الرئيسيي</p>
 <p className=''>شركة الأحرار العربية - حي الأعلام -  شارع البدالة - مجمع الملعب</p>
 
-<p className=' flex gap-2 items-center'>
-    <img className=' hidden sm:block sm:w-8 sm:h-8 object-cover' src="https://www.svgrepo.com/show/134581/whatsapp.svg" alt="" />
+<p className=' flex gap-1 sm:gap-2 items-center'>
+    <img className=' w-2 h-2 sm:w-8 sm:h-8 object-cover' src="https://www.svgrepo.com/show/134581/whatsapp.svg" alt="" />
     <span>0770500077</span>
 </p>
 
