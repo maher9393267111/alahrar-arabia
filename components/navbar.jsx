@@ -4,7 +4,7 @@ import { whatsapp } from '../data/links';
 
 const Navbar = () => {
   return (
-    <nav className='py-4 border-b-2 fixed top-0 left-0 right-0  bg-green-700 '>
+    <nav className='py-4 border-b-2 fixed top-0 left-0 right-0  bg-[#003900] '>
       <Container className='flex justify-between items-center'>
         <div className='flex items-center '>
           <Link
