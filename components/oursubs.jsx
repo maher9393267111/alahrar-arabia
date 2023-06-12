@@ -3,7 +3,7 @@ import { ourSubsData } from '../data/services'
 
 export default function oursubs() {
   return (
-    <div className=" mb-12 md:mt-[100px]">
+    <div className=" my-12   md:mt-[100px]">
 
 <div className='text-center text-[40px] sm:text-[52px]  transition-all mb-[55px]  duration-300  cursor-pointer  hover:font-bold'>
     <h1 className='bg-[#5AB889] p-3 mb-4 font-semibold hover:bg-[#00B889] w-[65%] md:w-[25%] m-auto rounded-md' >
